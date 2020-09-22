@@ -1,0 +1,124 @@
+body{
+background-image:url("unnamed.png");
+background-size:cover;
+background-repeat:no-repeat;
+margin:0;
+ background-position: center center;
+background-position:center;
+}
+
+
+
+/* button*/ 
+#design{
+text-align:center;
+font-size:5vh;
+width:47%;
+position:absolute;
+height:14vh;
+margin-left:13vw;
+margin-top:0;
+background-color:#9e0000;
+color:white;
+border-radius:5vw;
+border:0.1vw solid black;
+}
+#design:hover{
+color:white;
+transform:scale(1.2);
+}
+#design{
+ animation:mymove 12s infinite;}
+
+@keyframes mymove {
+ 0%{
+background-color:gray;
+}
+50%{
+background-color:black;
+}
+100%{
+background-color:gray;
+}
+}
+
+
+/*--------------------*/
+
+
+
+/* styling of div*/
+.dimension{
+height:50%;
+width:50%;
+padding:4%
+}
+.center{
+margin:0;
+position:absolute;
+top:60%;
+left:50%;
+background-image:url("yellow-white-and-black-star-and-cloud-clip-art-png-clip-art-thumbnail.png");
+background-size:cover;
+transform:translate(-50%,-50%);
+background-color:rgba(0,0,0,0.6);
+}
+/*----------------------------*/
+
+/*designing of heading */
+h1{
+color:rgb(240, 32, 0);
+font-family:"Showcard gothic"; 
+margin-left:17%;
+margin-top:16%;
+font-size:4vw;
+animation:zoom 5s infinite;
+}
+@keyframes zoom {
+ 0%{
+tranform:scale(1);}
+50%{
+transform:scale(0.2);}
+100%{
+transform:scale(1);}
+}
+/********************************/
+
+/*header and footer*/
+.header{
+position:fixed;
+top:0;
+bottom:50%;
+height:10vh;
+width:100%;
+background-color:black;
+z-index:2;
+
+}
+.footer{
+height:30vh;
+width:100%;background-color:#8a0000;
+margin-top:100vh;}
+.des{
+font-size:1.5vw;
+color:white;
+}
+.st{
+height:5vh;
+width:8%;
+border-radius:5vw;
+border:0.2vw solid black;
+background-color:rgba(255,255,255);
+float:right;
+font-size:80%;
+text-align: center;
+vertical-align: middle;
+text-align:center center; margin: auto;
+}
+.st:hover{
+background-color:rgb(16, 96, 96);
+transform:scale(1.2);
+color:white;
+}
+
+/*************************************/
