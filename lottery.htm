@@ -23,19 +23,36 @@
 <div class="lot">
 	<p class="ds"><b>GENERATE YOUR LOTTERY NUMBER</b></p>
 </div>
-<div class="lot1">
+<div class="lot1" >
 	<div class="white">
-		<div class="inside"><div class="inside1"></div>
+		<div class="inside"><div class="inside1">
+         </div>
 		<button id="no" onclick="random()" >CLICK </button></div>
 		</div>
 <div class="lot2">
-	<img src="money.png" alt="ticket" class="imag">
+	<img src="money.png" alt="ticket" id="imag">
 			<form id="fom">
 				<label for="number" class="lotdesign"><u>ENTER YOUR LOTTERY NO</u></label><br><br>
-      <input  type="number" placeholder="NUMBER.." name="number" id="size"  ><br><br>
-      <input type="submit" id="inc" ></form>
-    </form>
-</div></div>
+      <input  type="number" placeholder="NUMBER.." name="number" id="size"><br><br>
+    <!----  <input type="submit" id="inc" onclick="display()">-->
+    </form><button id="inc" onclick="display()">SUBMIT</button>
+</div><div id="win" style='background-image:linear-gradient(rgba(193, 194, 19,0.5),rgba(193, 194, 19,0.5)),url("tenor.gif");
+background-blend-mode: color;'>
+ <p class="winner">	OOOOOOOOOOOOOOO!!<br>
+YOU WON!!</p><img src="photo-1438761681033-6461ffad8d80.jfif" alt="name" class="per">
+</div>
+<div id="lose" style='background-image:url("thumbs_down_02.gif");'><h1 id="dim">YOU LOSE!</h1></div>
+<div id="win2" style='background-image:linear-gradient(rgba(193, 194, 19,0.5),rgba(193, 194, 19,0.5)),url("tenor.gif");
+background-blend-mode: color;'>
+	 <p class="winner">	OOOOOOOOOOOOOOO!!<br>YOU WON!!</p><img src="download.jfif" alt="name" class="per">
+
+</div><div id="win3" style='background-image:linear-gradient(rgba(193, 194, 19,0.5),rgba(193, 194, 19,0.5)),url("tenor.gif");
+background-blend-mode: color;'>
+	 <p class="winner">	OOOOOOOOOOOOOOO!!<br>YOU WON!!</p><img src="a6923adbc7bece73803221613f410782.webp" alt="name" class="per">
+	
+</div> 
+</div>
+</div>
 	<script type="text/javascript" src="myscript.js"></script>
 	</body>
 	</html>
