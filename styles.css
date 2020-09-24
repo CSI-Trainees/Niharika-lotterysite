@@ -3,8 +3,8 @@ background-image:url("unnamed.png");
 background-size:cover;
 background-repeat:no-repeat;
 margin:0;
- background-position: center center;
-background-position:center;
+background-attachment: fixed;
+
 }
 
 
@@ -21,7 +21,7 @@ margin-top:0;
 background-color:#9e0000;
 color:white;
 border-radius:5vw;
-border:0.1vw solid black; transition: transform 4s;
+border:0.1vw solid black;
 }
 #design:hover{
 color:white;
@@ -56,11 +56,10 @@ padding:4%
 .center{
 margin:0;
 position:absolute;
-top:60%;
-left:50%;
+top:20%;
+left:20%;
 background-image:url("yellow-white-and-black-star-and-cloud-clip-art-png-clip-art-thumbnail.png");
 background-size:cover;
-transform:translate(-50%,-50%);
 background-color:rgba(0,0,0,0.6);
 }
 /*----------------------------*/
@@ -97,9 +96,39 @@ z-index:2;
 
 }
 .footer{
-height:30vh;
-width:100%;background-color:#8a0000;
-margin-top:100vh;}
+height:38vh;
+width:100%;background-color:black;
+position: absolute;
+margin-top:100vh;
+font-family: "sans-serif";
+
+/*background-image: url("images (1).jfif");
+background-repeat: no-repeat;
+background-size: cover;*/
+overflow: hidden;
+}
+/*.footer::before{
+ width:100%;
+    height:20vh;
+    background-image: url("images (1).jfif");
+    position:absolute;
+background-blend-mode: color;
+    background-size: cover;
+   animation: zoominzoomout 10s infinite;
+content:" ";
+}
+@keyframes zoominzoomout {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+    	
+        transform: scale(1.4);
+    }
+    100% {
+        transform: scale(1);
+    }
+}*/
 .des{
 font-size:1.5vw;
 color:white;
@@ -123,3 +152,32 @@ color:white;
 }
 
 /*************************************/
+#foot{
+	font-size:150%;
+	color: yellow;
+}
+#up{
+	margin-top:-1.5%;
+	color: white;
+	text-shadow: 1px 0px 0px white;
+}
+#dim{
+	font-size:150%;
+	color: yellow;
+	margin-top:-10%;
+	margin-left:80%;
+}
+.fa{
+	color: white;
+}
+#info{
+	margin-top:-5%;
+	font-size:150%;
+	margin-left:40%;
+	color: yellow;
+}
+.line{
+	color: white;
+	opacity: 0.5;
+	width: 80%;
+}

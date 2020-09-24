@@ -14,10 +14,10 @@ body{
 	width: 100%;
 	right: 0;
 	top: 0;
+	position: fixed;
 	left: 0;
 	bottom: 0;
 	position: absolute;
-	position: fixed;
 	background-color: black;
 	z-index: 15;
 }
@@ -123,11 +123,11 @@ margin-left:40vw ;}
 }
 /********************************************/
 .lot1{
-	height:200vh;
+	height:120vh;
 	width:100%;
 	right: 0;
 	left: 0vh;
-	bottom:-192.4vh;
+	bottom:-110vh;
 	position: absolute;
 	background-color:rgba(174, 173, 210,1);
 	background-repeat: no-repeat;
@@ -342,4 +342,46 @@ color:#060231;
 	border-radius: 20px;
 	border: 1px solid white;
 	box-shadow: 2px 3px 4px white;
+}
+/****************************************************/
+/* designing of footer */
+
+.footer{
+	width: 100%;
+	right: 0;
+	top: 200%;
+	height: 39%;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+	background-color: black;
+}
+#foot{
+	font-size:150%;
+	color: yellow;
+}
+#up{
+	margin-top:-1.5%;
+	color: white;
+	text-shadow: 1px 0px 0px white;
+}
+#dim{
+	font-size:150%;
+	color: yellow;
+	margin-top:-10%;
+	margin-left:80%;
+}
+.fa{
+	color: white;
+}
+#info{
+	margin-top:-5%;
+	font-size:150%;
+	margin-left:40%;
+	color: yellow;
+}
+.line{
+	color: white;
+	opacity: 0.5;
+	width: 80%;
 }
