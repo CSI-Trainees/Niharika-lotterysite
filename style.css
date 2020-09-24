@@ -294,15 +294,14 @@ color:#060231;
 /************************************/
 #win,#win2,#win3,#lose{
   display: none;
-  margin-bottom:35rem;
+  
   border: 3px solid #f1f1f1;
   z-index: 9;
   width:80%;
   color:white;
   margin-top:1rem;
   margin-left: 10%;
-  height:93vh;
-  position: absolute;
+  height:93vh;position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 6px 6px 8px white;
@@ -330,7 +329,7 @@ color:#060231;
 }
 }
 
-#dim{
+#ya{
 	font-size: 400%;
 	margin-left:5%;
 	text-shadow: 2px 2px 3px black;
