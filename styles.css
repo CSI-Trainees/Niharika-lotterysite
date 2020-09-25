@@ -1,5 +1,6 @@
 body{
-background-image:url("unnamed.png");
+background-image:linear-gradient(#6a4dff,rgba(193, 194, 19,0.5)),url("unnamed.png");
+background-blend-mode: color;
 background-size:cover;
 background-repeat:no-repeat;
 margin:0;
@@ -18,24 +19,24 @@ position:absolute;
 height:14vh;
 margin-left:13vw;
 margin-top:0;
-background-color:#9e0000;
+background-image:linear-gradient(black,red);
 color:white;
 border-radius:5vw;
-border:0.1vw solid black;
+border:0.1vw solid red;
 }
 #design:hover{
 color:white;
 transform:scale(1.2);
 }
 #design{
- animation:mymove 12s infinite;}
+ animation:mymove 6s infinite;}
 
 @keyframes mymove {
  0%{
-background-color:gray;
+background-image:linear-gradient(black,red);
 }
 50%{
-background-color:black;
+box-shadow:2px 2px 8px 7px  #fa7a89;
 }
 100%{
 background-color:gray;
@@ -58,7 +59,8 @@ margin:0;
 position:absolute;
 top:20%;
 left:20%;
-background-image:url("yellow-white-and-black-star-and-cloud-clip-art-png-clip-art-thumbnail.png");
+background-image:linear-gradient(rgba(255, 117, 138,0.5),rgba(193, 194, 19,0.2)),
+url("yellow-white-and-black-star-and-cloud-clip-art-png-clip-art-thumbnail.png");
 background-size:cover;
 background-color:rgba(0,0,0,0.6);
 }
@@ -76,7 +78,7 @@ animation:zoom 5s infinite;
 }
 @keyframes zoom {
  0%{
-tranform:scale(1);}
+tranform:scale(1.2);}
 50%{
 transform:scale(0.2);}
 100%{
